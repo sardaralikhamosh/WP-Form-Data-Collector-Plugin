@@ -2,15 +2,18 @@
 /**
  * Plugin Name: WP Form Data Collector
  * Plugin URI: https://wordpress.org/plugins/wp-form-data-collector/
- * Description: Save all WordPress form submissions to your database. Works with Elementor, Contact Form 7, WPForms, Gravity Forms, and all major form plugins. Never lose a lead again!
+ * Description: Save all WordPress form submissions to your database. Works with Elementor, Contact Form 7, Gravity Forms, WPForms, and all major form plugins. Never lose a lead again!
  * Version: 2.0.0
- * Author: Your Name
- * Author URI: https://yourwebsite.com
- * License: GPL v2 or later
- * Text Domain: wp-form-data-collector
- * Domain Path: /languages
  * Requires at least: 5.0
  * Requires PHP: 7.2
+ * Author: Sardar Ali Khamosh
+ * Author URI: https://profiles.wordpress.org/sardaralikhamosh/
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: wp-form-data-collector
+ * Domain Path: /languages
+ *
+ * @package WP_Form_Data_Collector
  */
 
 // Prevent direct access
@@ -20,6 +23,7 @@ if (!defined('ABSPATH')) {
 
 // Define plugin constants
 define('WPFDC_VERSION', '2.0.0');
+define('WPFDC_PLUGIN_FILE', __FILE__);
 define('WPFDC_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('WPFDC_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('WPFDC_PLUGIN_BASENAME', plugin_basename(__FILE__));
