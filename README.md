@@ -1,22 +1,34 @@
-## WP Form Data Collector<br>
-Contributors: Sardar Ali Khamosh<br>
-Tags: form submissions, contact form, database, elementor, contact form 7, gravity forms, wpforms, lead capture, form data<br>
-Requires at least: 5.0<br>
-Tested up to: 6.5<br>
-Requires PHP: 7.2<br>
-Stable tag: 2.0.0<br>
-License: GPL v2 or later<br>
-License URI: https://www.gnu.org/licenses/gpl-2.0.html<br>
+# WP Form Data Collector
 
-Never lose another form submission! WP Form Data Collector automatically saves all your WordPress form submissions to your database.
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-green)
+![PHP](https://img.shields.io/badge/PHP-7.2%2B-purple)
+![License](https://img.shields.io/badge/license-GPL--2.0%2B-orange)
 
-# Description <br>
+**Never lose another form submission!** WP Form Data Collector automatically saves all your WordPress form submissions to your database.
 
-**The Ultimate Form Submission Manager for WordPress**
+## 📋 Plugin Information
+
+**Contributors:** Sardar Ali Khamosh  
+**Tags:** form submissions, contact form, database, elementor, contact form 7, gravity forms, wpforms, lead capture, form data  
+**Requires at least:** 5.0  
+**Tested up to:** 6.5  
+**Requires PHP:** 7.2  
+**Stable tag:** 2.0.0  
+**License:** GPL v2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
+
+## Plugin Structure
+
+![Plugin Structure](https://raw.githubusercontent.com/sardaralikhamosh/WP-Form-Data-Collector-Plugin/main/plugin-structure.PNG)
+
+## Description
+
+### **The Ultimate Form Submission Manager for WordPress**
 
 WP Form Data Collector is the reliable solution to capture, store, and manage every form submission from your WordPress website. Whether you use Elementor forms, Contact Form 7, Gravity Forms, WPForms, or any other form builder, this plugin ensures you never lose important leads, inquiries, or contact messages.
 
-# Why Choose WP Form Data Collector? <br>
+## Why Choose WP Form Data Collector?
 
 * **Universal Compatibility**: Works with all major form plugins including Elementor, Contact Form 7, Gravity Forms, WPForms, Ninja Forms, Fluent Forms, and more
 * **Automatic Data Capture**: No configuration needed - starts saving submissions immediately after activation
@@ -27,45 +39,45 @@ WP Form Data Collector is the reliable solution to capture, store, and manage ev
 * **No Submission Limits**: Store unlimited form entries
 * **Search & Filter**: Quickly find specific submissions by date, form type, or status
 
-= Key Features =
+## Key Features
 
-# **Universal Form Support**: <br>
-  - Elementor Pro Forms
-  - Contact Form 7
-  - Gravity Forms
-  - WPForms
-  - Ninja Forms
-  - Fluent Forms
-  - Formidable Forms
-  - Caldera Forms
-  - And any custom form with standard fields
+### **Universal Form Support**
+- Elementor Pro Forms
+- Contact Form 7
+- Gravity Forms
+- WPForms
+- Ninja Forms
+- Fluent Forms
+- Formidable Forms
+- Caldera Forms
+- And any custom form with standard fields
 
-# **Smart Field Detection**:<br>
-  - Automatically identifies name, email, phone, and message fields
-  - Captures all additional custom fields
-  - Intelligent field name recognition
+### **Smart Field Detection**
+- Automatically identifies name, email, phone, and message fields
+- Captures all additional custom fields
+- Intelligent field name recognition
 
-# **Advanced Management**:<br>
-  - Mark submissions as read/replied
-  - Add admin notes to each submission
-  - Filter by status, date, or form type
-  - Search through all submissions
-  - Bulk actions for mass management
+### **Advanced Management**
+- Mark submissions as read/replied
+- Add admin notes to each submission
+- Filter by status, date, or form type
+- Search through all submissions
+- Bulk actions for mass management
 
-# **Data Protection**:<br>
-  - Secure database storage
-  - IP address tracking
-  - User agent logging
-  - Automatic spam detection
-  - Data retention controls
+### **Data Protection**
+- Secure database storage
+- IP address tracking
+- User agent logging
+- Automatic spam detection
+- Data retention controls
 
-# **Export & Integration**:<br>
-  - Export to CSV format
-  - Ready for CRM integration
-  - API accessible data
-  - Regular data backups
+### **Export & Integration**
+- Export to CSV format
+- Ready for CRM integration
+- API accessible data
+- Regular data backups
 
-# Perfect For <br>
+## Perfect For
 
 * **Business Owners**: Never miss a customer inquiry
 * **Marketing Agencies**: Track campaign responses from multiple clients
@@ -74,7 +86,7 @@ WP Form Data Collector is the reliable solution to capture, store, and manage ev
 * **E-commerce Stores**: Capture customer questions and feedback
 * **Non-Profits**: Manage volunteer sign-ups and donations
 
-## Installation <br>
+## Installation
 
 1. Upload the `wp-form-data-collector` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -82,46 +94,52 @@ WP Form Data Collector is the reliable solution to capture, store, and manage ev
 
 No configuration needed - it works out of the box!
 
-## Frequently Asked Questions <br>
+## Frequently Asked Questions
 
-# Which form plugins are supported? <br>
+### Which form plugins are supported?
 All major WordPress form plugins are supported including Elementor Pro Forms, Contact Form 7, Gravity Forms, WPForms, Ninja Forms, Fluent Forms, and any custom forms with standard field names.
 
-# Will this affect my existing forms? <br>
+### Will this affect my existing forms?
 No, the plugin works in the background and doesn't modify your existing forms in any way. It simply captures the submissions after they're processed.
 
-# Is this GDPR compliant? <br>
+### Is this GDPR compliant?
 Yes, the plugin stores data securely in your own database. You can configure data retention periods and provide users with data access/export options as required by GDPR.
 
-# Can I export the data? <br>
+### Can I export the data?
 Yes, you can export all submissions to CSV format with one click from the admin panel.
 
-# Where is the data stored? <br>
+### Where is the data stored?
 All submissions are stored in your WordPress database in a dedicated table: `wp_wpfdc_submissions`
 
-# Does this work with Elementor Pro? <br>
+### Does this work with Elementor Pro?
 Yes, full support for Elementor Pro forms including popup forms, modal forms, and inline forms.
 
-## Screenshots <br>
+## 📸 Screenshots
 
-1. Main submissions dashboard showing all form entries<br>
-2. Detailed submission view with all captured data<br>
-3. Settings page for configuring notifications and preferences<br>
-4. Export interface for CSV downloads<br>
-5. Dashboard widget showing recent submissions<br>
+1. Main submissions dashboard showing all form entries
+2. Detailed submission view with all captured data
+3. Settings page for configuring notifications and preferences
+4. Export interface for CSV downloads
+5. Dashboard widget showing recent submissions
 
-# Changelog <br>
+## Changelog
 
-* 2.0.0 <br>
-* Initial public release<br>
-* Universal form plugin support<br>
-* Beautiful admin interface<br>
-* Email notifications<br>
-* CSV export functionality<br>
-* Dashboard widget<br>
-* GDPR compliant data handling<br>
+### 2.0.0
+* Initial public release
+* Universal form plugin support
+* Beautiful admin interface
+* Email notifications
+* CSV export functionality
+* Dashboard widget
+* GDPR compliant data handling
 
-# Upgrade Notice <br>
+## ⬆️ Upgrade Notice
 
-* 2.0.0 <br>
+### 2.0.0
 First public release - enjoy reliable form submission management!
+
+---
+
+## 🔧 Development
+
+### File Structure
